@@ -6,10 +6,10 @@ import sys
 
 def left(element):
     # Check both Vintage Story and Blender symmetry conventions
-    return element['name'].startswith('L ') or element['name'].endswith('.L')
+    return element['name'].startswith('L ') or element['name'].startswith('left ') or element['name'].endswith('Left') or element['name'].endswith('.L')
 
 def right(element):
-    return element['name'].startswith('R ') or element['name'].endswith('.R')
+    return element['name'].startswith('R ') or element['name'].startswith('right ') or element['name'].endswith('Right') or element['name'].endswith('.R')
 
 def ensure_value(jobj, path, value):
     epsilon = 0.01

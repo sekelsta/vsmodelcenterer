@@ -4,7 +4,7 @@ Currently just aligns central boxes, does not touch left/right pieces.
 
 Usage:
 
-python3 vsmodelcenterer.py \[input file or folder\]
+`python3 vsmodelcenterer.py [input file or folder]`
 
 Files will be modified in-place.
 
